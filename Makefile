@@ -1,6 +1,6 @@
 CFLAGS = -O3 -fPIC -g -Wall -Werror
 CC = gcc
-all : mymathd mymaths mains maind clean
+all : mymathd mymaths mains maind
 mymaths : libmyMath.a
 mymathd : libmyMath.so
 .PHONY : clean
